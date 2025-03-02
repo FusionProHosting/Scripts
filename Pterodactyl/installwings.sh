@@ -5,4 +5,4 @@ curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/releases/l
 chmod u+x /usr/local/bin/wings
 apt install -y certbot
 cd /etc/systemd/system
-wget https://github.com/FusionProHosting/Scripts/blob/master/Pterodactyl/wings.service
+wget https://github.com/FusionProHosting/Scripts/raw/refs/heads/master/Pterodactyl/wings.service
